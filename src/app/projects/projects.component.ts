@@ -24,7 +24,7 @@ export class ProjectsComponent implements OnInit {
         html:`
 
    <div style="width:40%; height:260px; float:left; margin-right:15px;
-   background-image:url(../../assets/8.png); background-size: cover;   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   background-image:url(assets/8.png); background-size: cover;   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
    filter: grayscale(100%);">
     </div>
           <h4>Angular Project</h4>
@@ -67,7 +67,7 @@ export class ProjectsComponent implements OnInit {
 
    <div style="width:40%; height:260px; float:left; margin-right:15px; -webkit-filter: grayscale(100%); 
    filter: grayscale(100%);
-   background-image:url(../../assets/10.png); background-size: cover;">
+   background-image:url(assets/10.png); background-size: cover;">
     </div>
           <h4>Angular Project</h4>
           <p style="text-align:left;margin-left:10px">
@@ -104,7 +104,7 @@ export class ProjectsComponent implements OnInit {
         html:`
 
    <div style="width:40%; height:260px; float:left; margin-right:15px;
-   background-image:url(../../assets/9.png); background-size: cover; -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   background-image:url(assets/9.png); background-size: cover; -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
    filter: grayscale(100%);">
     </div>
           <h4>React Js Project</h4>
@@ -141,7 +141,7 @@ export class ProjectsComponent implements OnInit {
         html:`
 
    <div style="width:40%; height:260px; float:left; margin-right:15px;
-   background-image:url(../../assets/5.png); background-size: cover; -webkit-filter: grayscale(100%); 
+   background-image:url(assets/5.png); background-size: cover; -webkit-filter: grayscale(100%); 
    filter: grayscale(100%);">
     </div>
           <h4>Design Project</h4>
@@ -180,7 +180,7 @@ export class ProjectsComponent implements OnInit {
 
    <div style="width:40%; height:260px; float:left; margin-right:15px;-webkit-filter: grayscale(100%); 
    filter: grayscale(100%);
-   background-image:url(../../assets/6.png); background-size: cover;">
+   background-image:url(assets/6.png); background-size: cover;">
     </div>
           <h4>Design Project</h4>
           <p style="text-align:left;margin-left:10px">
@@ -217,7 +217,7 @@ export class ProjectsComponent implements OnInit {
 
    <div style="width:40%; height:260px; float:left; margin-right:15px;-webkit-filter: grayscale(100%); 
    filter: grayscale(100%);
-   background-image:url(../../assets/7.png); background-size: cover;">
+   background-image:url(assets/7.png); background-size: cover;">
     </div>
           <h4>Design Project</h4>
           <p style="text-align:left;margin-left:10px">

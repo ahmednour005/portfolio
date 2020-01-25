@@ -81,25 +81,34 @@ height: 100%;
  }
 
  @media only screen and (max-width: 900px){
+   .header .datails{
+      padding: 15px;
+  }
    .header .datails h1{
-      font-size: 40px;
+      font-size: 35px;
    }
    .header .datails p{
-      font-size: 17px;
+      font-size: 16px;
    }
    .header .datails span{
-      font-size: 17px;
+      font-size: 13px;
    }
    .header .datails i{
-      font-size: 18px;
+      font-size: 15px;
    }
    .header .datails  ul li{
       width: 40px;
       height: 40px;
       line-height: 41px;
    }
- }
 
+ }
+ @media only screen and (max-width: 550px){
+   .header {
+      background-image:  url('https://www.virfice.com/wp-content/uploads/2019/07/gutenberg-keyboard-shortcuts1-e1568207642686.jpg'); 
+   
+  }
+ }
 
  @media only screen and (max-width: 500px){
    .header .datails h1{
@@ -128,4 +137,16 @@ height: 100%;
       line-height: 31px;
       margin-right: 10px;
    }
+   
+}
+
+.navbar-dark .navbar-toggler-icon:focus{
+   outline: 0;
+   border:0;
+   box-shadow: none;
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover{
+   outline: 0;
+   outline-color: transparent;
 }

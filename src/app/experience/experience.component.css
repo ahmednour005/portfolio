@@ -136,7 +136,7 @@ display: block; float: right; color:#6713d2;
 		padding: 25px;
 		margin-left: 80px;
 		margin-top: 25px;
-		width: 80%;
+		width: 65%;
 		position: relative;
 		-webkit-box-shadow: 1px 1px 6px rgba(20, 20, 20, 0.4);
 		-moz-box-shadow: 1px 1px 6px rgba(20, 20, 20, 0.4);
@@ -151,7 +151,7 @@ display: block; float: right; color:#6713d2;
 		padding: 25px;
 		margin-left: 80px;
 		margin-top: 25px;
-		width: 80%;
+		width: 65%;
 	}
 	#my-timeline .single-timeline .single-content:before {
 		border:0 solid transparent;

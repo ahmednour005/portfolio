@@ -162,3 +162,28 @@ display: block;
     width: 100%;
 }
 }
+
+
+.home .menu .navbar1 .downCv a{
+    color: #dedede;
+    font-size: 19px;
+    text-decoration: none;
+    border: 1px solid #dedede;
+    padding: 3px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.home .navmenu  .downCv a{
+    color: #9a9da0;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.home .menu .navbar2 .downCv a{
+    color: #dedede;
+    font-size: 22px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
