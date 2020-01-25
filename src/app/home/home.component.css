@@ -1,0 +1,164 @@
+.home .menu{
+    width: 20%;
+    float: left;
+    background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+    height: 625px;
+    text-align:center;
+    position: fixed;
+    padding: 10px;
+}
+.home .body{
+    width: 80%;
+    float: right;
+}
+
+.home .menu .navbar1 ul{
+list-style: none;
+width: 100%;
+margin:100px auto;
+padding: 0;
+
+text-align: center;
+}
+
+.home .menu .navbar1 ul li {
+    margin: 7px auto;
+    position: relative;
+}
+.home .menu .navbar1 ul li a{
+    font-size: 21px;
+    font-weight: 600;
+    color: #dedede;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.home .menu .navbar1 ul li a.active{
+color:#FFF;
+}
+
+
+.home .menu .navbar1 ul li a.active::before{
+    content: '';
+    width: 0;
+    position: absolute;
+    border-bottom:4px solid #fff;
+    bottom:-5px;
+    transition:0.7s all;
+    margin: auto;
+    width: 55px;
+    transition: 0.5s;
+}
+
+.home .menu .btnbtnCol{
+    width: 100%;
+    text-align: right;
+}
+
+.home .menu .btnbtnCol a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 25px;
+    border: 1px solid #ababab;
+    padding: 0 10px;
+    cursor: pointer;
+  
+}
+
+
+.home .menu .navbar2 ul{
+list-style: none;
+width: 100%;
+margin:100px auto;
+padding: 0;
+
+text-align: center;
+}
+
+.home .menu .navbar2 ul li {
+    margin: 8px auto;
+    position: relative;
+}
+.home .menu .navbar2 ul li a{
+    font-size: 25px;
+    font-weight: 600;
+    color: #b7b7b7;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.home .menu .navbar2 ul li a.active{
+color:#FFF;
+}
+
+.home .menu .navbar2 ul li a:hover{
+    color:#FFF;
+}
+
+.home .menu .navbar1 ul li a.active::before{
+    content: '';
+    width: 0;
+    position: absolute;
+    border-bottom:4px solid #fff;
+    bottom:-5px;
+    transition:0.7s all;
+    margin: auto;
+    width: 55px;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 700px) {
+    .home .menu .navbar1 ul li a{
+        font-size: 17px;
+        font-weight: 600;
+        color: #b7b7b7;
+        cursor: pointer;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    .home .menu .navbar2 ul li a{
+        font-size: 17px;
+        font-weight: 600;
+        color: #b7b7b7;
+        cursor: pointer;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+  
+
+}
+
+@media only screen and (max-width: 900px){
+    .home .menu .btnbtnCol .btnColapse2{
+        padding: 0 3px 10px;
+    }
+    .home .menu .btnbtnCol .btnColapse2 i{
+      font-size: 17px;
+        }
+}
+
+.home .navmenu{
+    display: none;
+    }
+
+@media only screen and (max-width: 600px)
+{
+    .home .menu{
+        display: none;
+    }
+   
+    .home .menu {
+        width: 0;
+    }
+.home .navmenu{
+display: block;
+}
+.home .body{
+    width: 100%;
+}
+}

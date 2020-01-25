@@ -1,0 +1,108 @@
+.skillPage{
+  background-color: #f5f5f5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.title-skills {
+  font-size:30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  transition: all 400ms ease-in-out;
+}
+
+.bar {
+  width: 75%;
+  margin: 10px;
+}
+
+.skill {
+  font-size: 17px;
+  text-transform: uppercase;
+  margin-bottom: 0.25em;
+}
+
+.speech-bubble {
+  font-size: 13px;
+  line-height: 2em;
+  position: absolute;
+  top: -2.7em;
+  text-align: center;
+  min-width: 3em;
+  border-radius: 0.3em;
+  display: none;
+}
+
+.html ,.pres,.timec{
+  left: calc(90% - 1.5em);
+}
+.com{
+  left: calc(92% - 1.5em);
+}
+.team{
+  left: calc(95% - 1.5em);
+}
+
+.jquery ,.bootstrap,.react{
+  left: calc(80% - 1.5em);
+}
+
+.java,.typescript,.english {
+    left: calc(85% - 1.5em);
+  }
+  .angular{
+    left: calc(85% - 1.5em);
+  }
+  .git{
+    left: calc(75% - 1.5em);
+  }
+.arabic{
+  left: calc(100% - 1.5em);
+}
+
+.speech-bubble:after {
+  border: 0.5em solid transparent;
+  content: "";
+  margin-left: -0.5em;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+}
+
+.bar-outer {
+  height:8px;
+  background: #d8d8d8;
+  position: relative;
+  border-radius: 0.3em;
+}
+
+.bar-inner {
+  width: 0;
+  height:8px;
+  border-radius: 0.3em;
+}
+
+.ht, .html ,.js,.java ,.jq,.jquery,.rc,.react,.an,.angular,.gt,.git,.ts,.typescript,
+.bt,.bootstrap{
+    background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
+    color:#FFF;
+}
+.cm,.com,.pr,.pres,.tm,.timec,.tw,.team{
+  background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+color:#FFF;
+}
+.html::after,.java::after,.jquery::after,.react::after,.git::after,.angular::after,
+.typescript::after,.bootstrap::after{
+    border-top-color: #7028e4;
+}
+.pres::after,.timec::after,.team::after,.com::after{
+  border-top-color:#cf6cc9;
+}
+
+.ar,.arabic,.en,.english{
+  background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+color:#FFF;
+}
+.arabic::after,.english::after{
+  border-top-color: #f78ca0;
+}

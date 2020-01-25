@@ -1,0 +1,85 @@
+<div class="home">
+    <div class="menu " >
+        <div class="btnbtnCol">
+            <a  class="btnColapse1" (click)="SmallNav()">X</a>
+            <a  class="btnColapse2" (click)="LargeNav()"><i class="fa fa-arrow-right"></i></a>
+        </div>
+
+        <div   class="navbar1">
+                <ul>
+                <li>
+                    <a [routerLinkActiveOptions]="{exact:
+                        true}" routerLinkActive="active" routerLink="/">About</a>
+                </li>
+                <li>
+                    <a  routerLinkActive="active" routerLink="/experience">Experience  </a>
+                </li>
+                <li><a  routerLinkActive="active" routerLink="/education">Education </a>
+                </li>
+                <li>
+                    <a routerLinkActive="active" routerLink="/skills"> Skills  </a>
+                </li>
+                <li><a routerLinkActive="active" routerLink="/projects"> Projects </a>
+                </li>
+            </ul>
+        </div>
+        <div  class="navbar2">
+            <ul>
+            <li>
+                <a [routerLinkActiveOptions]="{exact:
+                    true}" routerLinkActive="active" routerLink="/"><i class="fa fa-user"></i></a>
+            </li>
+            <li>
+                <a  routerLinkActive="active" routerLink="/experience"><i class="fa fa-address-book"></i>  </a>
+            </li>
+            <li><a  routerLinkActive="active" routerLink="/education"><i class="fa fa-graduation-cap"></i> </a>
+            </li>
+            <li>
+                <a routerLinkActive="active" routerLink="/skills"> <i class="fa fa-rocket"></i>  </a>
+            </li>
+            <li><a routerLinkActive="active" routerLink="/projects"> <i class="fa fa-tasks"> </i> </a>
+            </li>
+        </ul>
+    </div>
+    </div>
+
+
+    <div class="navmenu">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand"routerLink="/">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item " routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+                        <a class="nav-link" routerLink="/">About</a>
+                    </li>
+                    <li class="nav-item" routerLinkActive="active">
+                        <a class="nav-link"  routerLink="/experience">Experience </a>
+                    </li>
+                    <li class="nav-item" routerLinkActive="active">
+                        <a class="nav-link" routerLink="/education">Education </a>
+                    </li>
+                    <li class="nav-item" routerLinkActive="active">
+                        <a class="nav-link" routerLink="/skills"> Skills </a>
+                    </li>
+                    <li class="nav-item" routerLinkActive="active">
+                        <a class="nav-link" routerLink="/projects"> Projects </a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+    </div>
+
+
+
+
+    <div class="body">
+        <router-outlet></router-outlet>
+    </div>
+</div>
