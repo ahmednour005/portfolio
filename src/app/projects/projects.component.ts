@@ -242,4 +242,40 @@ export class ProjectsComponent implements OnInit {
     })
    
   }
+
+  box7Click(){
+    const swalWithBootstrapButtons = Swal.mixin({
+      buttonsStyling: true
+    })
+     
+    swalWithBootstrapButtons.fire({
+        html:`
+
+   <div style="width:40%; height:260px; float:left; margin-right:15px;-webkit-filter: grayscale(100%); 
+   filter: grayscale(100%);
+   background-image:url(assets/15.png); background-size: cover;">
+    </div>
+          <h4>Marketing Project</h4>
+          <p style="text-align:left;margin-left:10px">
+         1- responsive web application with  flex box and media Query.<br>
+         2- Using Html5 ,Css3.<br>
+         3- Using Jquery.<br>
+         4- Using google form to submit data.<br>
+
+         </p>
+        `,
+        background: 'rgb(251, 238, 253)',
+        backdrop: `
+        rgba(0,0,0,0.8)`,
+      showCancelButton: true,
+      confirmButtonText: 'Website',
+      cancelButtonText: 'cancel',
+      reverseButtons: true
+      }).then((result) => {
+      if (result.value) {
+        window.location.href = 'https://tagosyl.com';
+      } else if ( result.dismiss === Swal.DismissReason.cancel) { }
+    })
+   
+  }
 }

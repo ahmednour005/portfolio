@@ -80,6 +80,10 @@ background-size: cover;
     background-image:  url(../../assets/7.png);
  background-size: cover;
  }
+ .box.box7{
+    background-image:  url(../../assets/15.png);
+    background-size: cover;
+ }
 .item:hover > .box{
     background-position:bottom;
 }
